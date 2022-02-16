@@ -1,0 +1,119 @@
+/*Navbar*/
+.navbar ul{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/*Headings*/
+.headings{
+    font-size: 2.5rem;
+}
+.headings2{
+    font-family: century;
+
+    font-size: 4.5rem;
+    text-align: center;
+    right: 0rem;
+    margin:10px 0px;
+    color: yellow;
+    border-color: black;
+    text-shadow: 4px 4px black;
+    flex:auto
+}
+.home::before{
+    height: 500%;
+    width: 100%;
+    /*background-size: 100vw;*/
+}
+/*About*/
+#pic{
+    flex-direction: column;
+    align-items: center;
+}
+#pic img{
+    width: 50%;
+    height: 50%;
+    margin: 0px 20px 100px;
+    border-radius: 30px;
+}
+#intro h2{
+    text-align: center;
+    padding: 10px;
+    text-align: center;
+    border-radius: 50px;
+    background: rgb(0, 0, 0, 0.4);
+    text-shadow: 3px 4px black
+}
+#intro h2{
+    font-size: 2rem;
+    /*margin-bottom: 20px;*/
+    margin: 0px 20px 0px;
+}
+/*Contact*/
+.input{
+    width: 60%;
+}
+#msg{
+    width:55% ;
+}
+#send{
+    width:20% ;
+}
+
+#home::before{
+    content:"";
+    position: absolute;
+    top:20;
+    /*right:20;*/
+    background:url('picture.jpg')no-repeat center center/cover;
+    justify-content: center;
+    height:250%;
+    width:100%;
+    z-index: -1;
+    opacity: .8;
+}
+.hobbies{
+    display:flex;
+    flex-direction: column;
+    width: 400px;
+    height:auto;
+    border: 1px solid black;
+    margin: 10px;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 15px;
+    background: linear-gradient(to top,rgb(47, 107, 97) 50%, white 50%);
+    background-size: 100% 200%;
+    transition: all .8s;
+}
+.lang{
+    display:flex;
+    flex-direction: column;
+    width: 400px;
+    height:auto;
+    border: 1px solid black;
+    margin: 10px;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 15px;
+    background: linear-gradient(to top,blue 50%, white 50%);
+    background-size: 100% 200%;
+    transition: all .8s;
+}
+
+.basic{
+    display:flex;
+    flex-direction: column;
+    width: 400px;
+    height:auto;
+    border: 1px solid black;
+    margin: 10px;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 15px;
+    background: linear-gradient(to top,red 50%, white 50%);
+    background-size: 100% 200%;
+    transition: all .8s;
+}

@@ -1,0 +1,38 @@
+/*Home*/
+#home{
+    height: 820px;
+}
+.headings{
+    font-size: 1.7rem;
+}
+.home::before{
+    height: 50%;
+    width: 50%;
+    /*background-size: 100vw;*/
+    z-index: -1;
+    opacity: .8;
+}
+/*About*/
+#pic img{
+    width: 50%;
+    height: 50%;
+}
+#intro h2{
+    font-size: 1.5rem;
+}
+/*Certificates*/
+.gallery img{
+    width: 250px;
+    height: 150px;
+    margin: 10px;
+}
+/*Contact*/
+.input{
+    width: 80%;
+}
+#msg{
+    width: 70%;
+}
+#send{
+    width: 20%;
+}
