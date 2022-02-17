@@ -1,13 +1,13 @@
 /*Home*/
 #home{
-    height: 820px;
+    height: 600px;
 }
 .headings{
     font-size: 1.7rem;
 }
 .home::before{
-    height: 50%;
-    width: 50%;
+    height: 10%;
+    width: 10%;
     /*background-size: 100vw;*/
     z-index: -1;
     opacity: .8;
